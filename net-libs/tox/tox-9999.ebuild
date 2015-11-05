@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -22,7 +22,7 @@ RDEPEND="
 	daemon? ( dev-libs/libconfig )
 	av? ( media-libs/libvpx
 		media-libs/opus )
-	ntox? ( sys-libs/ncurses )"
+	ntox? ( sys-libs/ncurses:* )"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	test? ( dev-libs/check )"
