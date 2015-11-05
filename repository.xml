@@ -3,11 +3,11 @@
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="official">
     <name>tox-overlay</name>
-    <description lang="en">Official Gentoo overlay for Toxcore, Tox clients, and Tox related projects.</description>
+    <description lang="en">Ebuilds for Toxcore, Tox clients, and other Tox-related projects</description>
     <homepage>https://github.com/Tox/gentoo-overlay-tox</homepage>
     <owner type="project">
-		<email>zexavexxe@gmail.com</email>
-		<name>zetok</name>
+		<email>infrastucture@tox.chat</email>
+		<name>The Tox Project</name>
     </owner>
     <source type="git">git://github.com/Tox/gentoo-overlay-tox.git</source>
     <feed>https://github.com/Tox/gentoo-overlay-tox/commits/master.atom</feed>
