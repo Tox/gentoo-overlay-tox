@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -24,7 +24,7 @@ RDEPEND="
 	libnotify? ( x11-libs/libnotify )
 	sound-notify? ( media-libs/freealut )
 	X? ( x11-libs/libX11 )
-	sys-libs/ncurses
+	sys-libs/ncurses:*
 	dev-libs/libconfig"
 DEPEND="${RDEPEND}
 	app-text/asciidoc

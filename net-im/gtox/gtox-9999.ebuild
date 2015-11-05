@@ -1,10 +1,10 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
-inherit eutils git-2 cmake-utils
+inherit cmake-utils eutils git-2
 
 DESCRIPTION="A GTK3 Tox-Client"
 HOMEPAGE="https://github.com/kokutoru/gtox"
@@ -18,8 +18,10 @@ KEYWORDS=""
 #IUSE="+filter_audio gtk X"
 
 DEPEND="
+	${RDEPEND}
 	dev-util/cmake
-	>=sys-devel/gcc-4.9.0
+	>=sys-devel/gcc-4.9.0"
+RDEPEND="
 	>=dev-cpp/gtkmm-3.16.0
 	dev-libs/atk
 	dev-libs/glib:2
@@ -36,7 +38,6 @@ DEPEND="
 	>=dev-cpp/gstreamermm-1.0.10
 	net-libs/tox[av]
 	x11-libs/libX11"
-RDEPEND="${DEPEND}"
 
 CMAKE_USE_DIR="${S}/src"
 
