@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit eutils git-2
+inherit eutils git-r3
 
 DESCRIPTION="Racket bindings for the OpenAL library."
 HOMEPAGE="https://github.com/lehitoskin/libopenal-racket"

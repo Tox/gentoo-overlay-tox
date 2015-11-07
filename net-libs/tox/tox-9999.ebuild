@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit autotools eutils git-2 user systemd
+inherit autotools eutils git-r3 user systemd
 
 DESCRIPTION="Encrypted P2P, messaging, and audio/video calling platform"
 HOMEPAGE="https://tox.chat"

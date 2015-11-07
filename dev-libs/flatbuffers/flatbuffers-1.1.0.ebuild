@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit cmake-utils eutils java-pkg-2
+inherit cmake-utils eutils java-pkg-opt-2
 
 DESCRIPTION="Memory Efficient Serialization Library"
 HOMEPAGE="http://google.github.io/flatbuffers/"

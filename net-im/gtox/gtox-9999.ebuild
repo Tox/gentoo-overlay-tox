@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit cmake-utils eutils git-2
+inherit cmake-utils eutils git-r3
 
 DESCRIPTION="A GTK3 Tox-Client"
 HOMEPAGE="https://github.com/kokutoru/gtox"

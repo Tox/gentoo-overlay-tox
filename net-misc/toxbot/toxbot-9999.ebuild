@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit eutils git-2 toolchain-funcs
+inherit eutils git-r3 toolchain-funcs
 
 DESCRIPTION="Tox groupchats bot"
 HOMEPAGE="https://github.com/JFreegman/ToxBot"

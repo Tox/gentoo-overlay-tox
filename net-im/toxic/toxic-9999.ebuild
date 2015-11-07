@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit autotools eutils git-2 toolchain-funcs
+inherit autotools eutils git-r3 toolchain-funcs
 
 DESCRIPTION="CLI Frontend for Tox"
 HOMEPAGE="https://wiki.tox.chat/clients/toxic"

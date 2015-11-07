@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit cmake-utils eutils git-2
+inherit cmake-utils eutils git-r3
 
 DESCRIPTION="toxvpn allows one to make tunneled point to point connections over Tox"
 HOMEPAGE="https://github.com/cleverca22/toxvpn"

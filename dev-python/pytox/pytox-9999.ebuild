@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python{2_7,3_3,3_4} )
 inherit distutils-r1 eutils
 
 if [[ ${PV} == "9999" ]] ; then
-	inherit git-2
+	inherit git-r3
 	EGIT_REPO_URI="https://github.com/aitjcize/PyTox.git"
 else
 	SRC_URI="https://github.com/aitjcize/PyTox/archive/${PV}.tar.gz"

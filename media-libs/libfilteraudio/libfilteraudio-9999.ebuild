@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit eutils git-2 toolchain-funcs
+inherit eutils git-r3 toolchain-funcs
 
 DESCRIPTION="Lightweight audio filtering library made from webrtc code."
 HOMEPAGE="https://github.com/irungentoo/filter_audio"
