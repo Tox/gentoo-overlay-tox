@@ -10,8 +10,12 @@
 # https://github.com/hasufell                                  >>> net-im/tox-prpl #(Previously)
 # http://git.overlays.gentoo.org/gitweb/?p=user/emery.git      >>> net-libs/tox + net-im/toxic + net-im/venom #(Previously)
 
-# 2. Maintainers of this overlay
+# 2. Current Maintainers
+#------------------------------------------------------
+# zero-one <infrastructure@tox.chat>
+
+# 3. Previous/Inactive Maintainers
 #------------------------------------------------------
 # holgersson <holgersson [ASCII-SYMBOL-64] posteo.de PGP:0xe55e95e8220f34d7 >
 # zetok <zexavexxe [ASCII-SYMBOL-64] gmail.com PGP:0x53137c3033f09008  >
-# urras <urras [ASCII-SYMBOL-64] tox.im PGP:0x9dd9ab20e51227d2 > #(Inactive)
+# urras <urras [ASCII-SYMBOL-64] tox.im PGP:0x9dd9ab20e51227d2 >
