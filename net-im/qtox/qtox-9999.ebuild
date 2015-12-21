@@ -6,7 +6,7 @@ EAPI=5
 
 inherit eutils qmake-utils git-r3
 
-DESCRIPTION="GUI for net-libs/tox using QT5 with code similarities to net-im/tox-gui-qt"
+DESCRIPTION="Powerful Qt5 chat client for net-libs/tox that follows the Tox design guidelines"
 HOMEPAGE="https://github.com/tux3/qtox"
 SRC_URI=""
 EGIT_REPO_URI="git://github.com/tux3/qtox.git
@@ -18,6 +18,7 @@ KEYWORDS=""
 IUSE="+filter_audio gtk X"
 
 DEPEND="
+	dev-db/sqlcipher
 	dev-qt/linguist-tools:5
 	dev-qt/qtconcurrent:5
 	dev-qt/qtcore:5
