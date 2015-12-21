@@ -2,7 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer>
-		<email>maintainer-wanted@gentoo.org</email>
+		<email>infrastructure@tox.chat</email>
+		<name>The Tox Project</name>
 	</maintainer>
 	<use>
 		<flag name="dbus">Adds dbus support for desktop notifications</flag>
