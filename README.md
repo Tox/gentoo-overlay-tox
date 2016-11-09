@@ -1,6 +1,8 @@
 tox-overlay
 ===========
 
+## Please note that this overlay is no longer maintained. It has lost the maintainer and we couldn't find anyone who would maintain it. Consider using [zetok's overlay](https://github.com/zetok/zetok-overlay) instead.
+
 To add this overlay from layman, run:
 
 ```sudo layman -a tox-overlay```
