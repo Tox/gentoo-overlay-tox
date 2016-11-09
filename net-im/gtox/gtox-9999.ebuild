@@ -26,7 +26,7 @@ RDEPEND="
 	dev-libs/atk
 	dev-libs/glib:2
 	dev-cpp/glibmm
-	dev-libs/flatbuffers
+	>=dev-libs/flatbuffers-1.2.0
 	x11-libs/gtk+:3
 	x11-libs/cairo[X]
 	x11-libs/pango[X]
