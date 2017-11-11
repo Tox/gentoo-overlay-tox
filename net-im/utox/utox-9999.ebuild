@@ -8,8 +8,8 @@ inherit eutils fdo-mime git-r3 gnome2-utils toolchain-funcs
 
 DESCRIPTION="Lightweight Tox client"
 HOMEPAGE="http://utox.org"
-EGIT_REPO_URI="git://github.com/GrayHatter/uTox.git
-	https://github.com/GrayHatter/uTox.git"
+EGIT_REPO_URI="git://github.com/uTox/uTox.git
+	https://github.com/uTox/uTox.git"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -33,6 +33,7 @@ src_prepare() {
 
 src_configure() {
 	# respect CFLAGS
+	ctags CMakeLists.txt
 	sed -i \
 		-e '/CFLAGS/s# -g ##' \
 		Makefile || die
