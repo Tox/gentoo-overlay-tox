@@ -33,6 +33,7 @@ src_prepare() {
 
 src_configure() {
 	# respect CFLAGS
+	ctags CMakeLists.txt
 	sed -i \
 		-e '/CFLAGS/s# -g ##' \
 		Makefile || die
